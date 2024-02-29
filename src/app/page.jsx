@@ -2,6 +2,9 @@ import Image from 'next/image'
 import HeroSection from './component/HeroSection'
 import { Container } from 'postcss'
 import Navbar from './component/Navbar'
+import AboutSection from './component/AboutSection'
+import ProjectSection from './component/ProjectSection'
+
 
 export default function Home() {
   return (
@@ -9,6 +12,8 @@ export default function Home() {
       <Navbar/>
     <div className="container mx-auto px-4 py-12 mt-24">
     <HeroSection/>
+    <AboutSection/>
+    <ProjectSection/>
     </div>
     
     </main>
