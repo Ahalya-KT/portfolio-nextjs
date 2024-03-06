@@ -4,6 +4,8 @@ import { Container } from 'postcss'
 import Navbar from './component/Navbar'
 import AboutSection from './component/AboutSection'
 import ProjectSection from './component/ProjectSection'
+import EmailSection from './component/EmailSection'
+import Footer from './component/Footer'
 
 
 export default function Home() {
@@ -14,7 +16,9 @@ export default function Home() {
     <HeroSection/>
     <AboutSection/>
     <ProjectSection/>
+    <EmailSection/>
     </div>
+    <Footer/>
     
     </main>
   )
