@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
   <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
     <div className='flex flex-wrap item-center justify-between mx-auto  py-8 pr-2'>
-       <Link href= {"/"} className= 'text-lg md:text-2xl text-white font-semibold'>LOGO</Link>
+       <Link href= {"/"} className= 'text-lg md:text-xl text-white font-semibold ml-2'>LOGO</Link>
        <div className=' mobile-menu block md:hidden'>
         {
             !navbarOpen ? (
