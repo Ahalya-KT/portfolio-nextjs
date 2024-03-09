@@ -66,7 +66,7 @@ const AboutSection = () => {
     <section className='text-white'>
         <div className='md:grid md:grid-cols-2 gap-8 item-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
 
-          <Image src="/images/about-image.png" width={400} height={500}/>  
+          <Image src="/images/about-image.png" width={400} height={500} alt="noimage"/>  
           <div className='mt-4 md:mt-4 text-left flex-flex-col h-full'>
             <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
             <p className='text-base lg:text-lg text-[#ADB7BE]' >I am a Junior React Developer with a passion for creating interactive and responsive web application. I have Experience with React,javascript,Tailwind CSS, Chakara UI,HTML,CSS and Git.Iam always looking to expand my knowledge and skill set. Iam excited to work with others to create amazing application.</p>
