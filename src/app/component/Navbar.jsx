@@ -27,7 +27,7 @@ const navLinks=[
 const Navbar = () => {
     const[navbarOpen,setNavOpen]=useState(false)
   return (
-  <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100'>
+  <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 px-10'>
     <div className='flex flex-wrap item-center justify-between mx-auto  py-8 pr-2'>
        <Link href= {"/"} className= 'text-lg md:text-xl text-white font-semibold ml-2'>LOGO</Link>
        <div className=' mobile-menu block md:hidden'>
@@ -40,10 +40,9 @@ const Navbar = () => {
             <button onClick={()=>setNavOpen(false)}  className='flex items-center py-3 px-2 text-slate-200 border rounded border-slate-200 hover:text-white hover-border-white'>
             <IoMdClose className="h-5 w-5" />
             </button>
-      
+    
             )
         }
-
        </div>
 
        <div className='menu hidden md:block md:w-auto id="navbar'>
